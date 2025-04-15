@@ -3,3 +3,12 @@
         "silent": true
     }
 }
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://perseverantmind.top/ai/$1",
+      "permanent": true
+    }
+  ]
+}
