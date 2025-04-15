@@ -7,6 +7,7 @@ import SettingsIcon from "../icons/settings.svg";
 import GithubIcon from "../icons/github.svg";
 import ChatGptIcon from "../icons/chatgpt.svg";
 import AddIcon from "../icons/add.svg";
+import PerseverantMindLOGO from "../icons.perseverantmind.svg"
 import DeleteIcon from "../icons/delete.svg";
 import MaskIcon from "../icons/mask.svg";
 import McpIcon from "../icons/mcp.svg";
@@ -349,7 +350,7 @@ export function SideBar(props: { className?: string }) {
               <a href="https://perseverantmind.top" target="_blank" rel="noopener noreferrer">
                   <IconButton
                       aria="My GitHub Profile"
-                      icon={<GithubIcon />}
+                      icon={<PerseverantMindLOGO />}
                       shadow
                   />
               </a>
