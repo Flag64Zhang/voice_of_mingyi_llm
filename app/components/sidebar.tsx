@@ -348,11 +348,10 @@ export function SideBar(props: { className?: string }) {
             </div>
             <div className={styles["sidebar-action"]}>
               <a href="https://perseverantmind.top" target="_blank" rel="noopener noreferrer">
-                  <IconButton
-                      aria="My GitHub Profile"
-                      icon={<PerseverantMindLOGO />}
-                      shadow
-                  />
+                <IconButton
+                  icon={<PerseverantMindLOGO />}
+                  shadow
+                />
               </a>
             </div>
           </>
