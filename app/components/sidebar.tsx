@@ -345,6 +345,15 @@ export function SideBar(props: { className?: string }) {
                 />
               </a>
             </div>
+            <div className={styles["sidebar-action"]}>
+              <a href="https://github.com/your-github-url" target="_blank" rel="noopener noreferrer">
+                  <IconButton
+                      aria="My GitHub Profile"
+                      icon={<GithubIcon />}
+                      shadow
+                  />
+              </a>
+            </div>
           </>
         }
         secondaryAction={
